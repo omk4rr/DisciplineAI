@@ -93,7 +93,7 @@ DisceplineAI/
 ├── README.md                    # This detailed overview
 ```
 🤝 Contributing
-We welcome pull requests to:
+Pull requests to:
 
 Improve prompts and persona
 
@@ -103,7 +103,7 @@ Build a web UI (Gradio/Streamlit)
 
 Optimize performance (8‑bit, CPU offload)
 
-Please fork the repo, create a feature branch, and submit a PR – we’ll review ASAP.
+Please fork the repo, create a feature branch, and submit a PR – will review ASAP.
 
 # 📜 License
 Distributed under the MIT License. See LICENSE for details.
