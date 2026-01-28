@@ -40,7 +40,7 @@ _DisciplineAI doesn’t regurgitate quotes—it **embodies** these teachings in 
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/omk4rr/DisceplineAI.git
+git clone https://github.com/omk4rr/DisciplineAI.git
 cd DisceplineAI
 
 # 2. Install dependencies
@@ -68,8 +68,8 @@ python inference.py "What’s the secret to influence people?"
 ```bash
 from inference import ask_discepline
 
-answer = ask_discepline("How can I overcome procrastination?")
-print("DisceplineAI:", answer)
+answer = ask_discipline("How can I overcome procrastination?")
+print("DisciplineAI:", answer)
 ```
 
 ## 🤖 Model Details
@@ -77,14 +77,14 @@ Base: mistralai/Mistral-7B-v0.1
 
 Fine‑Tune Method: LoRA + QLoRA (4‑bit)
 
-Adapter Repo: omk4rr/DisceplineAI
+Adapter Repo: omk4rr/DisciplineAI
 
 Training Data: Passages and paraphrases derived from the four self‑help classics listed above.
 
 ## 📂 Folder Structure
 ```bash
-DisceplineAI/
-├── DiceplineAI.ipynb            # Colab notebook: data prep & fine‑tuning
+DisciplineAI/
+├── DisciplineAI.ipynb            # Colab notebook: data prep & fine‑tuning
 ├── inference.py                 # CLI & importable inference script
 ├── requirements.txt             # Python dependencies
 ├── adapter_config.json          # LoRA adapter configuration
@@ -106,7 +106,7 @@ Optimize performance (8‑bit, CPU offload)
 Please fork the repo, create a feature branch, and submit a PR – will review ASAP.
 
 # 📜 License
-Distributed under the MIT License. See LICENSE for details.
+Distributed under the MIT License.
 
 
 # DisciplineAI doesn’t quote self‑help books—it thinks like them.
