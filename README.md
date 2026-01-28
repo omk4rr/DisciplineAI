@@ -41,7 +41,7 @@ _DisciplineAI doesn’t regurgitate quotes—it **embodies** these teachings in 
 ```bash
 # 1. Clone this repo
 git clone https://github.com/omk4rr/DisciplineAI.git
-cd DisceplineAI
+cd DisciplineAI
 
 # 2. Install dependencies
 pip install -r requirements.txt
